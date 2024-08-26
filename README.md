@@ -3,11 +3,10 @@
 
 ### 1. What is your dataset, and what are its tables and structure? What outcome do you want to address? 🗂️
 
-* **Dataset Explanation:** Provide a detailed overview of your dataset, including its schema, key tables, and the relationships between them.
-* **Desired Outcome:** Describe the specific business questions or problems you aim to address with this dataset.
-
 ### 📋 Dataset Description
 A year's worth of sales data from a fictitious pizza place, including detailed information on each order such as date, time, pizza types, sizes, quantities, prices, and ingredients.
+
+![diagram-export-8-27-2024-2_40_44-AM](https://github.com/user-attachments/assets/a0591b89-aca3-483a-9f9d-2f2f32545983)
 
 ---
 
@@ -38,14 +37,6 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
 2. **Order Insights:** How many pizzas are typically in an order? Do we have any bestsellers?
 3. **Revenue Analysis:** How much money did we make this year? Can we identify any seasonality in the sales?
 4. **Menu Optimization:** Are there any pizzas we should take off the menu, or any promotions we could leverage?
-
-🎨 Feel free to contribute or reach out with any questions or suggestions!
-
----
-
-# DBT Project Presentation Checklist 📋
-
-
 
 ### 2. How is DBT architecture organized in your project? What are staging, curated, and consumption folders, and how are they materialized? 🏗️
 
@@ -86,4 +77,8 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
 ### 8. What are the final results in the Snowflake environment? ❄️
 
 * **Final Results:** Summarize the final results and outcomes of your DBT project as observed in the Snowflake environment.
+
+🎨 Feel free to contribute or reach out with any questions or suggestions!
+
+---
 
