@@ -5,8 +5,8 @@
 
 ### 📋 Dataset Description
 A year's worth of sales data from a fictitious pizza place, including detailed information on each order such as date, time, pizza types, sizes, quantities, prices, and ingredients.
+![diagram-export-8-27-2024-3_23_59-AM](https://github.com/user-attachments/assets/dc94a481-70d3-4bfe-8116-a3facac37bb5)
 
-![diagram-export-8-27-2024-2_40_44-AM](https://github.com/user-attachments/assets/a0591b89-aca3-483a-9f9d-2f2f32545983)
 
 ---
 
