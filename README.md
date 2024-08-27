@@ -38,6 +38,8 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
 3. **Revenue Analysis:** How much money did we make this year? Can we identify any seasonality in the sales?
 4. **Menu Optimization:** Are there any pizzas we should take off the menu, or any promotions we could leverage?
 
+---
+
 ### 2. How is DBT architecture organized in your project? What are staging, curated, and consumption folders, and how are they materialized? 🏗️
 
 * **DBT Architecture Overview:** Explain the purpose of each folder in your DBT project:
