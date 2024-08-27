@@ -7,9 +7,6 @@
 A year's worth of sales data from a fictitious pizza place, including detailed information on each order such as date, time, pizza types, sizes, quantities, prices, and ingredients.
 ![diagram-export-8-27-2024-3_23_59-AM](https://github.com/user-attachments/assets/dc94a481-70d3-4bfe-8116-a3facac37bb5)
 
-
----
-
 ### 📊 Dataset Dictionary
 
 | **Table**     | **Field**        | **Description**                                                                                                                                                                                      |
@@ -30,8 +27,6 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
 | **pizza_types**   | `category`         | Category that the pizza falls under in the menu (Classic, Chicken, Supreme, or Veggie)                                                                                                                |
 | **pizza_types**   | `ingredients`      | Comma-delimited ingredients used in the pizza as shown in the menu (they all include Mozzarella Cheese, even if not specified; and they all include Tomato Sauce, unless another sauce is specified) |
 
----
-
 ### 🔍 Recommended Analysis
 1. **Customer Trends:** How many customers do we have each day? Are there any peak hours?
 2. **Order Insights:** How many pizzas are typically in an order? Do we have any bestsellers?
@@ -48,10 +43,13 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
   - **Consumption:** Final data models used for reporting and analysis.
 * **Materialization:** Discuss the materialization strategies used for each layer (e.g., table, incremental).
 
+---
+
 ### 3. How are sources defined in your DBT project? 📚
 
 * **Sources Definition:** Describe the process of defining and configuring data sources in your DBT project, including any relevant configurations or settings.
 
+---
 ### 4. What cleaning operations were performed in staging models, and what tests and macros have you created? 🧹
 
 * **Staging Models and Cleaning Operations:** Outline the transformations and cleaning steps applied to the raw data in staging models.
@@ -60,21 +58,30 @@ A year's worth of sales data from a fictitious pizza place, including detailed i
   - **Generic Test:** Provide an example of a generic test you have implemented.
 * **Macro:** Describe at least one macro created in your project, including its purpose and usage.
 
+---
+
 ### 5. What are the curated models, and what operations (e.g., joining, stacking, incremental logic) were applied? 🔄
 
 * **Curated Models:** Detail the curated models, including any joining or stacking operations.
 * **Incremental Logic:** Explain how incremental logic is used to handle data updates and additions.
+
+---
 
 ### 6. What consumption models have you created, and what business requirements do they address? 📈
 
 * **Consumption Models:** Describe the final models used for analysis and reporting.
 * **Business Requirements:** Explain how these models fulfill specific business requirements or use cases.
 
+
+---
+
 ### 7. What is your deployment environment, and how are jobs created, scheduled, and triggered via API? 🌐
 
 * **Deployment Environment:** Detail the environment in which your DBT project is deployed (e.g., Snowflake, BigQuery).
 * **Job Creation and Scheduling:** Describe how DBT jobs are created and scheduled.
 * **API Trigger Information:** Provide information on how APIs are used to trigger jobs or workflows.
+
+---
 
 ### 8. What are the final results in the Snowflake environment? ❄️
 
