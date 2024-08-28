@@ -8,4 +8,4 @@ SELECT
     date AS order_date,
     time AS order_time
 FROM
-    raw.orders
+    DBT_PP_DB.PIZZA_PLACE.ORDERS
