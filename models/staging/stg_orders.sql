@@ -1,11 +1,13 @@
--- models/staging/stg_orders.sql
-{{ config(
-    materialized='view'
-) }}
+    {{
+  config(
+    materialized='table',
+    alias='stg_orders'
+  )
+}}
 
-SELECT
+SELECT 
     order_id,
-    date AS order_date,
-    time AS order_time
-FROM
-    DBT_PP_DB.PIZZA_PLACE.ORDERS
+    date,
+    time
+FROM 
+    {{ source('pizza_place', 'orders') }}
