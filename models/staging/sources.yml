@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: pizza_place
+    database: DBT_PP_DB
+    schema: PIZZA_PLACE
+    tables:
+      - name: orders
+      - name: order_details
+      - name: pizzas
+      - name: pizza_types
