@@ -1,13 +1,12 @@
     {{
   config(
-    materialized='table',
-    alias='stg_orders'
+    materialized='view',
   )
 }}
 
 SELECT 
     order_id,
-    date,
-    time
+    date as order_date,
+    time as order_time
 FROM 
     {{ source('pizza_place', 'orders') }}

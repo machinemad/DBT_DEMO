@@ -4,7 +4,7 @@
   )
 }}
 
-WITH daily_customers AS (
+/* WITH daily_customers AS (
   SELECT 
       date,
       COUNT(DISTINCT order_id) AS num_customers
@@ -17,4 +17,4 @@ SELECT
     date,
     num_customers
 FROM 
-    daily_customers
+    daily_customers */
