@@ -9,7 +9,7 @@
       date,
       COUNT(DISTINCT order_id) AS num_customers
   FROM 
-      {{ ref('curated_orders') }}
+      {{ ref('cur_orders') }}
   GROUP BY 
       date
 )
