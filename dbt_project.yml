@@ -37,6 +37,6 @@ models:
     staging:
       +materialized: view
     curated:
-      +materialized: view
+      +materialized: table
     consumption:
       +materialized: table

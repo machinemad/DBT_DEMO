@@ -6,17 +6,13 @@
 
 WITH orders AS (
   SELECT 
-      order_id,
-      date,
-      time
+  *
   FROM 
       {{ ref('stg_orders') }}
 ),
 order_details AS (
-  SELECT 
-      order_id,
-      pizza_id,
-      quantity
+  SELECT
+  *
   FROM 
       {{ ref('stg_order_details') }}
 )
